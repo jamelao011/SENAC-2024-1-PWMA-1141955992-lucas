@@ -1,10 +1,10 @@
-body {
+body { /* estilização do body*/
     margin: 0;
     font-family: roboto;
     background-color: #E6E6E6;
 }
 
-header {
+header { /* estilização do header*/
     background-color: #475F80; 
     color: black;
     padding: 20px 0; 
@@ -41,7 +41,7 @@ header {
     width: 100vw; 
 }
 
-.hero {
+.hero { /* estilização do hero*/
     width: 45%; 
     padding: 20px;
     background-color: #475F80;
@@ -49,7 +49,7 @@ header {
     font-weight: bold;
 }
 
-.hero button {
+.hero button { /* estilização do botao login dentro do hero*/
     background: none;
     border: none;
     color: inherit;
@@ -64,7 +64,7 @@ header {
 .hero button:hover {
     text-decoration: underline;
 }
-.reviews-container {
+.reviews-container { /* estilização das reviews*/
     display: flex;
     justify-content: space-around;
     margin-top: 20px; 
@@ -88,7 +88,7 @@ header {
     margin-bottom: 10px; 
 }
 
-.blue-box {
+.blue-box { /* estilização da area de contato com whatsapp*/
     width: 50%;
     padding: 100px;
     background-color: #475F80;
@@ -118,7 +118,7 @@ header {
     text-decoration: none;
     border-radius: 5px;
 }
-.footer {
+.footer { /* estilização do footer*/
     background-color: #475F80;
     color: black;
     text-align: center;
